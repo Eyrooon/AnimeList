@@ -14,7 +14,7 @@ const onSearch = e => {
                 `
                 <div class="row">
                     <div class="col s12 m7">
-                        <div class="card">
+                        <div class="card"> 
                             <div class="card-image">
                             <img src="${item.attributes.posterImage.large}" width="50%" height="50%">
                             <span class="card-title">${item.attributes.abbreviatedTitles[0]}</span>
@@ -23,7 +23,9 @@ const onSearch = e => {
                             <p>${item.attributes.synopsis}</p>
                             </div>
                             <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="#">This is a lindssk</a>
+                            <a href="#">This is a linsdk</a>
+                            <a href="#">This is a linsdsk</a>
                             </div>
                         </div>
                     </div>
@@ -31,6 +33,10 @@ const onSearch = e => {
                 `
             ).join(' ');
             Anime.innerHTML = html;
+            // sample
+            // commit
+            // for
+            // myself
         });
     }
 
