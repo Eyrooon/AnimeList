@@ -24,7 +24,8 @@ const onSearch = e => {
                             </div>
                             <div class="card-action">
                             <a href="#">This is a lindssk</a>
-                            <a href="#">This is a linsdk</a>
+                            asdasd
+                            <a href="#">Thasdasdasdis isssss a linsdk</a>
                             <a href="#">This is a linsdsk</a>
                             </div>
                         </div>
