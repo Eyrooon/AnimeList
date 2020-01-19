@@ -12,20 +12,49 @@ const onSearch = e => {
         .then(res => {
             const html = res.data.map(item => 
                 `
-                <div class="row">
+                <div class="row">             <div class="card-action">
+                <a hrefd as dd  
+                <p>${item.attributes.synopsis}</p>
+                </div>   asdasdasdas
+                <div class="card-action">
+                <   a hrefd
+                dsadasd             <p>${item.attributes.synopsis}</p>
+                </div>   asdasdasdas
+                <div c   lass="card-action">
+                <a hrefd             <p>${item.attributes.synopsis}</p>
+                </div>   asdasdasdas
+                <div class="card-action">
+                <a hrefd
+                
+                ="#">asdasThis is a lindssk</a>
+                asdasd
+                <a href="#">dasdasThasdasd
                     <div class="col s12 m7">
                         <div class="card"> 
                             <div class="card-image">
-                            <img src="${item.attributes.posterImage.large}" width="50%" height="50%">
-                            <span class="card-title">${item.attributes.abbreviatedTitles[0]}</span>
+                            <img src   ="${item.attributes.posterImage.large}" width="50%" height="50%">
+                            <span cldass="card-title">${item.attributes.abbreviatedTitles[0]}</span>
                             </div>
-                            <div class="card-content" style="text-align:justify">
+                            <div class="  card-content" style="text-align:justify">
                             <p>${item.attributes.synopsis}</p>
-                            </div>
+                            </div>   asdasdasdas
                             <div class="card-action">
-                            <a href="#">This is a lindssk</a>
+                            <a hrefd as dd  
+                            <p>${item.attributes.synopsis}</p>
+                            </div>   asdasdasdas
+                            <div class="card-action">
+                            <   a hrefd
+                            dsadasd             <p>${item.attributes.synopsis}</p>
+                            </div>   asdasdasdas
+                            <div c   lass="card-action">
+                            <a hrefd             <p>${item.attributes.synopsis}</p>
+                            </div>   asdasdasdas
+                            <div class="card-action">
+                            <a hrefd
+                            
+                            ="#">asdasThis is a lindssk</a>
                             asdasd
-                            <a href="#">Thasdasdasdis isssss a linsdk</a>
+                            <a href="#">dasdasThasdasdasdis isssss a linsdk</a>
                             <a href="#">This is a linsdsk</a>
                             </div>
                         </div>
